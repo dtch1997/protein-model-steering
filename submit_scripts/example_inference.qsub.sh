@@ -23,5 +23,5 @@ export PYTHONPATH=$PYTHONPATH:${POETDIR}/poet
 export PYTHONPATH=$PYTHONPATH:/SAN/orengolab/nsp13/PETase
 nvidia-smi
 python3 example_inference.py \
-  --ckpt_path ${POETDIR}/data/poet.ckpt \
+  --ckpt_path ${POETDIR}/data/poet.ckpt
 date
