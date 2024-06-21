@@ -49,7 +49,7 @@ def main(args):
         msa_sequences=prompt_encoded,
         variants=eval_seqs,
         model=model,
-        batch_size=args.batch_size,
+        batch_size=8,
         alphabet=alphabet,
     )
     print(f"log likelihoods for {len(eval_seqs)} sequences:")
