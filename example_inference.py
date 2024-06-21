@@ -65,7 +65,6 @@ if __name__ == "__main__":
     parser.add_argument("--fasta_path",
                         type=Path,
                         default="example_data/expasy_ec/1_1_1_3.fasta",
-                        required=True
                         )
     args = parser.parse_args()
     main(args)
