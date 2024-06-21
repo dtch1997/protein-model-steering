@@ -3,6 +3,7 @@
 #$ -l h_vmem=15.9G
 #$ -l gpu=true
 #$ -l gpu_type=(rtx3090|rtx4090|a6000|a40|a100|a100_80)
+#$ -l hostname='!hogthrob*'
 #$ -l h_rt=00:55:30
 #$ -S /bin/bash
 #$ -N poet
